@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>SAN</title>
+</head>
+<body>
+
+    <h1>WOI</h1>
+
+    <p>TEST DOANG</p>
+
+    <script>
+        // Fungsi untuk menampilkan pop-up berulang
+        function showPrankAlert() {
+            // Pengulangan 50 kali untuk membuat jengkel, bukan macet
+            for (let i = 0; i < 5000; i++) {
+                alert("OK IN AJA" + (i + 1));
+            }
+
+            // Setelah semua pop-up ditampilkan, arahkan ke halaman lain (opsional)
+            // window.location.href = "https://www.google.com";
+        }
+
+        // Jalankan fungsi setelah halaman selesai dimuat
+        window.onload = showPrankAlert;
+
+    </script>
+
+</body>
+</html>
